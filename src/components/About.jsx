@@ -4,7 +4,7 @@ import Html from "../assets/Html.png";
 import Css from "../assets/CSS.png";
 import JavaScript from "../assets/JS.png";
 import ReactLogo from "../assets/React.svg";
-import Tailwind from "../assets/Tailwind.png";
+import Tailwind from "../assets/tailwind.png";
 import Bootstrap from "../assets/Bootstrap.png";
 import NodeLogo from "../assets/NodeLogo.png";
 import Mongodb from "../assets/Mongodb.svg";
