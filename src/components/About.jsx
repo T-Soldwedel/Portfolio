@@ -22,24 +22,25 @@ const About = () => {
             {/* <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
               Hi, I'm Thomas Soldwedel
             </p> */}
-            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              Full-Stack Developer with expertise in web development and the MERN stack.
+            <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto sm:mx-auto">
+              Full-Stack Developer with expertise in web development and the
+              MERN stack.
             </p>
           </div>
           <div className="mt-10">
             <div className="grid grid-cols-1 gap-12 lg:grid-cols-2">
               <div>
-                <h3 className="text-2xl font-semibold text-gray-900">
-                  My Journey
-                </h3>
+                {/* <h3 className="text-2xl font-semibold text-gray-900">
+                  
+                </h3> */}
                 <p className="mt-4 text-lg text-gray-600">
-                  I started my journey in web development with a passion for
-                  creating intuitive and scalable applications. With proficiency
-                  in the MERN stack (MongoDB, Express.js, React and Node.js), I
-                  have built projects such as a full-stack food ordering
-                  website, a job portal and even a LinkedIn clone. My projects
-                  demonstrate my ability to integrate powerful backend solutions
-                  with sleek, user-friendly frontend designs.
+                  Focused on creating fast, responsive, and user-friendly
+                  digital experiences. Skilled in frontend frameworks like React
+                  and backend technologies like Node.js and Express.js, I bring
+                  a fullstack approach to building scalable, impactful web
+                  solutions. I'm passionate about translating business needs
+                  into seamless digital products, and I'm constantly expanding
+                  my skills to stay at the forefront of web development.
                 </p>
                 <img
                   src={MernStack}
@@ -93,8 +94,16 @@ const About = () => {
             </div>
           </div>
           <div className="mt-12">
-<h3 className="text-2xl font-semibold text-gray-900">More About Me</h3>
-<p className="mt-4 text-lg text-gray-600">Apart from coding, I am passionate about learning new technologies and keeping myself up-to-date with the latest trends in web development. I also run a YouTube channel where I teach JavaScript, MERN Stack development, WordPress and digital Marketing, helping others dive deep into the world of programming and technology.</p>
+            <h3 className="text-2xl font-semibold text-gray-900">
+              More About Me
+            </h3>
+            <p className="mt-4 text-lg text-gray-600">
+              Apart from coding, I am passionate about learning new technologies
+              and keeping myself up-to-date with the latest trends in web
+              development. However, sports such as volleyball and calistehnics
+              play a significant role in my life and provide a great balance to
+              my work at the computer.
+            </p>
           </div>
         </div>
       </div>

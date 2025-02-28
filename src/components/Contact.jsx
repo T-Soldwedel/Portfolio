@@ -1,8 +1,8 @@
 import React from "react";
 import instagram from "../assets/instagram.png";
 import linkedin from "../assets/linkedin.png";
-import Lottie from "lottie-react"
-import contact from "../assets/Contact.json"
+import Lottie from "lottie-react";
+import contact from "../assets/Contact.json";
 
 const Contact = () => {
   return (
@@ -38,24 +38,66 @@ const Contact = () => {
               </a>
             </div>
 
-            <Lottie animationData={contact} className="w-[350px] mx-auto lg-w-[500px]" />
-
+            <Lottie
+              animationData={contact}
+              className="w-[350px] mx-auto lg-w-[500px]"
+            />
           </div>
-          <form className="w-full md:w-1/2 bg-gray-100 rounded-lg border border-blue-300 shadow-lg shadow-blue-500 p-10" action="https://formsubmit.co/thomas.soldwedel@gmail.com" method="POST">
-          <h1 className="text-gray-900 text-4xl font-bold mb-7">Contact Me</h1>
-          <div className="mb-4">
-            <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
-            <input type="text" id="name" name="name" placeholder="Full Name" className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"></input>
-          </div>
-          <div className="mb-4">
-            <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
-            <input type="email" name="email" id="email" placeholder="Email" className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"></input>
-          </div>
-          <div className="mb-4">
-            <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
-            <textarea name="textarea" id="message" placeholder="Enter your Message" className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"></textarea>
-          </div>
-          <button className="bg-blue-500 text-white px-3 py-2 rounded-lg">Send Message</button>
+          <form
+            className="w-full md:w-1/2 bg-gray-100 rounded-lg border border-blue-300 shadow-lg shadow-blue-500 p-10"
+            action="https://formsubmit.co/thomas.soldwedel@gmail.com"
+            method="POST"
+          >
+            <h1 className="text-gray-900 text-4xl font-bold mb-7">
+              Contact Me
+            </h1>
+            <div className="mb-4">
+              <label
+                htmlFor="name"
+                className="block text-sm font-medium text-gray-700"
+              >
+                Name
+              </label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Full Name"
+                className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              ></input>
+            </div>
+            <div className="mb-4">
+              <label
+                htmlFor="email"
+                className="block text-sm font-medium text-gray-700"
+              >
+                Email
+              </label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email"
+                className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              ></input>
+            </div>
+            <div className="mb-4">
+              <label
+                htmlFor="message"
+                className="block text-sm font-medium text-gray-700"
+              >
+                Message
+              </label>
+              <textarea
+                name="textarea"
+                id="message"
+                placeholder="Enter your Message"
+                className="mt-1 p-2 block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+              ></textarea>
+            </div>
+            <button className="bg-blue-500 text-white px-3 py-2 rounded-lg">
+              Send Message
+            </button>
           </form>
         </div>
       </div>

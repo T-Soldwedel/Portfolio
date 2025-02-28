@@ -1,5 +1,5 @@
 import React from "react";
-import cv from "../assets/Lebenslauf.pdf"
+import cv from "../assets/Lebenslauf.pdf";
 
 const Hero = () => {
   return (
@@ -12,24 +12,19 @@ const Hero = () => {
               I'm Thomas <span className="text-blue-700">Soldwedel</span>
             </h1>
             <p className="md:text-2xl text-xl mb-4">Web Developer</p>
-            <p className="mb-4">
-              I'm a passionate web developer with expertise in React and modern web technologies. I love creating beautiful and
-              functional websites that solve real world problems.
+            <p className="mb-4 lg:text-xl">
+              I'm a passionate web developer with expertise in React and modern
+              web technologies. I love creating beautiful and functional
+              websites that solve real world problems.
             </p>
             <button className="bg-black text-white px-3 py-2 w-max rounded-md">
-              <a
-                href={cv}
-                download
-                target="_blank"
-              >
-                Download CV 
+              <a href={cv} download target="_blank">
+                Download CV
               </a>
             </button>
           </div>
-
         </div>
       </div>
-
     </section>
   );
 };
