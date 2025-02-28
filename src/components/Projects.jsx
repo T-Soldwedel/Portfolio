@@ -18,14 +18,7 @@ const Projects = () => {
       image: Thanks2,
       live: "https://in-place.vercel.app/",
       github: "https://github.com/T-Soldwedel/in_place",
-    },
-    // {
-    //   title: "",
-    //   desc: "",
-    //   image: Thanks3,
-    //   live: "",
-    //   github: "",
-    // },
+    }
   ];
 
   return (
