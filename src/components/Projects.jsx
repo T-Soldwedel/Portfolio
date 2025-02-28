@@ -1,6 +1,6 @@
 import React from "react";
-import TrioMio from "../assets/TrioMio.png";
-import InPlace from "../assets/InPlace.png";
+import triomio from "../assets/triomio.png";
+import inplace from "../assets/inplace.png";
 import Cards from "./Cards";
 
 const Projects = () => {
@@ -8,14 +8,14 @@ const Projects = () => {
     {
       title: "TrioMio",
       desc: "Project for some friends from Bremen, which is not yet finished due to a regrouping of the artists.",
-      image: TrioMio,
+      image: triomio,
       live: "https://t-soldwedel.github.io/bogus-website/",
       github: "https://github.com/T-Soldwedel/bogus-website",
     },
     {
       title: "InPlace",
       desc: "Final Group Project of the 12-month Web Development course at Digital Career Institute Berlin.",
-      image: InPlace,
+      image: inplace,
       live: "https://in-place.vercel.app/",
       github: "https://github.com/T-Soldwedel/in_place",
     },
