@@ -13,10 +13,7 @@ const Navbar = () => {
             {/* <img src={Logo} alt="" className="w-36" /> */}
           </a>
           <nav className="md:flex hidden items-center space-x-6 text-lg font-medium">
-            <a
-              href="#about"
-              className="transition-colors hover:text-blue-600"
-            >
+            <a href="#about" className="transition-colors hover:text-blue-600">
               About
             </a>
             <a
