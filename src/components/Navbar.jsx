@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import { Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -31,7 +31,7 @@ const Navbar = () => {
             </a>
           </nav>
         </div>
-        {/* <button
+        <button
           className="inline-flex items-center justify-center rounded-md md:hidden"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
@@ -41,7 +41,7 @@ const Navbar = () => {
           ) : (
             <Menu className="h-6 w-6" aria-hidden="true" />
           )}
-        </button> */}
+        </button>
       </div>
       {mobileMenuOpen && (
         <div className="md:hidden">
