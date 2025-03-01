@@ -7,9 +7,9 @@ import ReactLogo from "../assets/React.svg";
 import Tailwind from "../assets/tailwind.png";
 import Bootstrap from "../assets/Bootstrap.png";
 import NodeLogo from "../assets/NodeLogo.png";
-// import mongodb from "../assets/mongodb.svg";
+import mongodb from "../assets/mongodb.svg";
 import Express from "../assets/Express.png";
-const mongodb = require("../../assets/Mongodb.svg").default;
+// const mongodb = require("../../assets/Mongodb.svg").default;
 
 const About = () => {
   return (
