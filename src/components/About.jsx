@@ -7,8 +7,9 @@ import ReactLogo from "../assets/React.svg";
 import Tailwind from "../assets/tailwind.png";
 import Bootstrap from "../assets/Bootstrap.png";
 import NodeLogo from "../assets/NodeLogo.png";
-import Mongodb from "../assets/Mongodb.svg";
+// import mongodb from "../assets/mongodb.svg";
 import Express from "../assets/Express.png";
+const mongodb = require("../../assets/Mongodb.svg").default;
 
 const About = () => {
   return (
@@ -82,7 +83,7 @@ const About = () => {
                     <span className="font-semibold">Node Js</span>
                   </div>
                   <div className="border border-blue-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-blue-300">
-                    <img src={Mongodb} alt="" className="w-10" />
+                    <img src={mongodb} alt="" className="w-10" />
                     <span className="font-semibold">Node</span>
                   </div>
                   <div className="border border-blue-300 flex items-center gap-1 w-max px-2 py-1 rounded-lg shadow-md shadow-blue-300">
